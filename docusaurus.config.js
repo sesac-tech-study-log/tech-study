@@ -111,7 +111,7 @@ const config = {
               },
               {
                 label: '스터디 로그',
-                to: '/docs',
+                to: '/docs/day1',
               },
             ],
           },

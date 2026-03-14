@@ -22,7 +22,7 @@ export default function Home() {
 
           <Link
             className="button button--secondary button--lg"
-            to="/docs"
+            to="/docs/day1"
           >
             스터디 로그
           </Link>
