@@ -1,42 +1,46 @@
-import clsx from 'clsx';
-import Link from '@docusaurus/Link';
-import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
+import React from 'react';
 import Layout from '@theme/Layout';
-import HomepageFeatures from '@site/src/components/HomepageFeatures';
-
-import Heading from '@theme/Heading';
-import styles from './index.module.css';
-
-function HomepageHeader() {
-  const {siteConfig} = useDocusaurusContext();
-  return (
-    <header className={clsx('hero hero--primary', styles.heroBanner)}>
-      <div className="container">
-        <Heading as="h1" className="hero__title">
-          {siteConfig.title}
-        </Heading>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <div className={styles.buttons}>
-          <Link
-            className="button button--secondary button--lg"
-            to="/docs/intro">
-            Docusaurus Tutorial - 5min ⏱️
-          </Link>
-        </div>
-      </div>
-    </header>
-  );
-}
+import Link from '@docusaurus/Link';
 
 export default function Home() {
-  const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
-      <HomepageHeader />
-      <main>
-        <HomepageFeatures />
+      title="테크 스터디 아카이브"
+      description="주말 테크 스터디 기록"
+    >
+      <main style={{ padding: '4rem 2rem', textAlign: 'center' }}>
+        <h1>테크 스터디 아카이브</h1>
+        <p>주말마다 진행한 테크 스터디 기록을 정리하는 공간입니다.</p>
+
+        <div style={{ display: 'flex', gap: '1rem', justifyContent: 'center', marginTop: '2rem', flexWrap: 'wrap' }}>
+          <Link
+            className="button button--primary button--lg"
+            to="/docs/intro"
+          >
+            스터디 소개
+          </Link>
+
+          <Link
+            className="button button--secondary button--lg"
+            to="/docs"
+          >
+            스터디 로그
+          </Link>
+
+          <Link
+            className="button button--secondary button--lg"
+            to="/docs/materials"
+          >
+            기타자료
+          </Link>
+
+          <Link
+            className="button button--secondary button--lg"
+            to="/docs/github"
+          >
+            참여인원 깃허브
+          </Link>
+        </div>
       </main>
     </Layout>
   );

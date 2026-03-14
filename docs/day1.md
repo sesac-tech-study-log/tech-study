@@ -1,5 +1,4 @@
 ---
-sidebar_position: 2
 title: Day 1
 sidebar_label: Day 1
 ---
@@ -7,24 +6,18 @@ sidebar_label: Day 1
 # Day 1
 
 ## 날짜
-2026-03-14
+2026-01-04
 
 ## 주제
-뇌세포 배양 컴퓨팅 / 곤충 뇌 시뮬레이션
+### Trend of Week - Bye 2025, Hello 2026!
+- 내용
 
-## 핵심 내용
-- 
-- 
-- 
+### Python Snippet - DAY01, DAY02 복습
+- 내용
 
-## 인상적이었던 포인트
-- 
-- 
+### Tech News
+#### (1) Upstage vs. Sionic AI
+- 내용
 
-## 같이 이야기한 점
-- 
-- 
-
-## 다음에 더 볼 것
-- 
-- 
+#### (2) Big 3 comming?
+- 내용 
