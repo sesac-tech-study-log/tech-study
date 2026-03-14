@@ -47,10 +47,6 @@ const config = {
       ({
         docs: {
           sidebarPath: './sidebars.js',
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/sesac-tech-study-log/tech-study/settings/pages',
         },
         blog: false,
         theme: {
@@ -77,25 +73,19 @@ const config = {
         // },
         items: [
         {
-          type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
+          to: '/docs/intro',
+          label: '테크 스터디 아카이브',
           position: 'left',
-          label: '스터디 로그',
+        },
+        {
+          to: '/docs/github',
+          label: '참여인원 깃허브',
+          position: 'left',
         },
         {
           to: '/docs/materials',
           label: '기타자료',
           position: 'left',
-        },
-        {
-          to: '/docs/github',
-          label: '참여인원 GitHub',
-          position: 'left',
-        },
-        {
-          href: 'https://github.com/sesac-tech-study-log/tech-study',
-          label: 'Repository',
-          position: 'right',
         },
       ],
       },

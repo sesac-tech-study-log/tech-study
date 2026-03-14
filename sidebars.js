@@ -17,12 +17,9 @@
 const sidebars = {
   // By default, Docusaurus generates a sidebar from the docs folder structure
   tutorialSidebar: [
-    'intro',
-    'github',
-    'materials',
     {
       type: 'category',
-      label: 'day_log',
+      label: '스터디 로그',
       items: ['day1'],
     },
   ],

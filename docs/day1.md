@@ -1,6 +1,6 @@
 ---
 title: Day 1
-sidebar_label: Day 1
+sidebar_label: 1주차
 ---
 
 # Day 1
