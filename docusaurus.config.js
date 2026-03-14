@@ -74,7 +74,7 @@ const config = {
         items: [
         {
           to: '/docs/intro',
-          label: '테크 스터디 아카이브',
+          label: '스터디 소개',
           position: 'left',
         },
         {
